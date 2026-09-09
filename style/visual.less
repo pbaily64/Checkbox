@@ -1,0 +1,42 @@
+.cbf-container {
+    display: flex;
+    flex-direction: column;
+    padding: 8px 12px;
+    font-family: "Segoe UI", sans-serif;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+
+    .cbf-title {
+        font-weight: 600;
+        margin-bottom: 8px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .cbf-row {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        margin-bottom: 6px;
+        cursor: pointer;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    .cbf-checkbox {
+        cursor: pointer;
+        flex-shrink: 0;
+    }
+
+    .cbf-label {
+        cursor: pointer;
+        user-select: none;
+        color: #333333;
+        line-height: 1.4;
+    }
+}

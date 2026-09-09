@@ -1,0 +1,20 @@
+{
+    "visual": {
+        "name": "checkboxFilter",
+        "displayName": "Checkbox Filter (True/False)",
+        "guid": "checkboxFilterB00C2F74DA1D4F7495B22EBFD7AFF440",
+        "visualClassName": "Visual",
+        "version": "1.0.2.0",
+        "description": "Boolean filtering visual with True/False checkboxes. Configurable default, customizable title.",
+        "supportUrl": "https://powerbi.microsoft.com",
+        "gitHubUrl": "https://github.com"
+    },
+    "apiVersion": "5.3.0",
+    "author": { "name": "Baily Patrick", "email": "patrick.baily@nn.be" },
+    "assets": { "icon": "assets/icon.png" },
+    "externalJS": null,
+    "style": "style/visual.less",
+    "capabilities": "capabilities.json",
+    "dependencies": null,
+    "stringResources": []
+}
