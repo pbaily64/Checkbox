@@ -7,7 +7,7 @@
         "version": "1.0.3.0",
         "description": "Boolean filtering visual with True/False checkboxes. Configurable default, customizable title.",
         "supportUrl": "https://powerbi.microsoft.com",
-        "gitHubUrl": "https://github.com"
+        "gitHubUrl": "https://github.com/pbaily64/Checkbox"
     },
     "apiVersion": "5.11.0",
     "author": { "name": "Baily Patrick", "email": "patrick.baily@nn.be" },

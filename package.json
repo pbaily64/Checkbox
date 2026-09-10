@@ -1,22 +1,20 @@
 {
-  "name": "visual",
-  "description": "default_template_value",
+  "name": "checkbox-filter",
+  "description": "Power BI custom visual - boolean checkbox filter with a configurable default value",
   "version": "1.0.3.0",
   "repository": {
-    "type": "default_template_value",
-    "url": "default_template_value"
+    "type": "git",
+    "url": "https://github.com/pbaily64/Checkbox.git"
   },
   "license": "MIT",
   "scripts": {
     "pbiviz": "pbiviz",
     "start": "pbiviz start",
     "package": "pbiviz package && powershell -ExecutionPolicy Bypass -File ./scripts/del_move.ps1",
-    "rename": "node -e \"const fs=require('fs'),path=require('path'),dir='dist';const f=fs.readdirSync(dir).find(x=>x.endsWith('.pbiviz'));if(f&&f!=='checkboxFilter.pbiviz'){fs.renameSync(path.join(dir,f),path.join(dir,'checkboxFilter.pbiviz'));console.log('Renamed to checkboxFilter.pbiviz');}\"",
-    "lint": "npx eslint ."
+    "lint": "npx eslint .",
+    "eslint": "npx eslint . --ext .js,.jsx,.ts,.tsx"
   },
   "dependencies": {
-    "@types/d3": "7.4.3",
-    "d3": "7.9.0",
     "powerbi-visuals-api": "^5.11.0",
     "powerbi-visuals-utils-formattingmodel": "^6.2.2"
   },
